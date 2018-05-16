@@ -35,7 +35,7 @@ h2 {
     text-transform: uppercase;
 }
 
-p {
+p, ul {
     font-family: 'Roboto';
     font-size: 16px;
     text-align: left;
@@ -74,6 +74,7 @@ p {
 
 }
 
+
 .onderaan {
     display: flex;
     flex-wrap: nowrap;
@@ -89,7 +90,9 @@ p {
     display: block;
     background: rgb(44,67,133);
     color: #FFF; 
+    margin: 10px 0px;
     padding: 10px;
+    font-family: 'Roboto';
     text-decoration: none;
     font-size: 24px;
     border-bottom: 3px solid rgba(0,0,0,.3);
@@ -110,11 +113,63 @@ p {
     display: block;
     background: rgb(206,206,206);
     color: rgb(45,45,44); 
-    padding: 10px;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-weight: medium;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 28px;
-    border-bottom: 3px solid rgba(0,0,0,.3);
-    width: 130px;
+    width: 170px;
 }
+
+.button2:hover {
+    border-bottom: 3px solid rgb(44,67,133);
+}
+
+.button2:active {
+    border-bottom: 3px solid rgb(44,67,133);
+}
+
+.button4 { 
+    display: block;
+    color: rgb(44,67,133); 
+    margin: 10px 0px;
+    padding: 10px;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 24px;
+    width: 200px;
+}
+
+
+
+
+#share {
+	width: 100%;
+  	margin: 10px 0px;
+  	text-align: left;
+}
+
+#share a {
+	width: 50px;
+  	height: 50px;
+  	display: inline-block;
+  	margin: 8px;
+  	padding: 5px;
+  	font-size: 24px;
+  	color: #fff;
+}
+
+#share i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.facebook {
+    background: rgb(39,34,100);
+}
+
+
+
 
