@@ -35,6 +35,13 @@ h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    font-family: 'Roboto regular';
+    font-size: 24px; 
+    color: rgb(69,171,208);
+    text-transform: uppercase;
+}
+
 p, ul {
     font-family: 'Roboto';
     font-size: 16px;
@@ -142,8 +149,6 @@ p, ul {
 }
 
 
-
-
 #share {
 	width: 100%;
   	margin: 10px 0px;
@@ -168,6 +173,29 @@ p, ul {
 
 .facebook {
     background: rgb(39,34,100);
+}
+
+.button6 { 
+    display: block;
+    background: rgb(206,206,206);
+    color: rgb(45,45,44); 
+    padding: 10px 100px 60px 10px;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 28px;
+    width: 500px;
+}
+
+.button6:hover {
+   background-color: rgb(172, 172, 169);
+}
+
+.foutmelding {
+   color: rgb(207, 9, 9);
+}
+
+.exclamation {
+    background-color: rgb(207, 9, 9);
 }
 
 
